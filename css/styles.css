@@ -637,9 +637,6 @@ img {
   background-color: rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   transition: opacity 250ms, visibility 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -651,6 +648,10 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .modal-close {
   position: absolute;
