@@ -605,7 +605,7 @@ img {
   width: 100%;
   height: 100%;
   padding: 63px 24px;
-  transform: translateY(100%);
+  transform: translateY(295px);
   transition: transform 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
